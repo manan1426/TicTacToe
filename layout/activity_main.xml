@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Two player Tic Tac Toe"
+        android:gravity="center"
+        android:textSize="26dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5pt">
+
+        <Button
+            android:id="@+id/bu1"
+            android:layout_marginRight="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_marginRight="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5pt">
+
+        <Button
+            android:id="@+id/bu4"
+            android:layout_marginRight="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu5"
+            android:layout_marginRight="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5pt">
+
+        <Button
+            android:id="@+id/bu7"
+            android:layout_marginRight="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu8"
+            android:layout_marginRight="5pt"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bu9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="BuClick"
+            android:text="" />
+    </TableRow>
+    <TextView
+        android:text="To play with device"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <Button
+        android:text="Click Me!"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:onClick="changeScreen"/>
+</TableLayout>
